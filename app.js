@@ -25,7 +25,7 @@ function stopthewatch() {
     clearInterval(interval)
 }
 function refresh() {
-    clearInterval(null)
+    clearInterval(interval)
     second = 0;
     minute = 0;
     hours = 0;
